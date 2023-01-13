@@ -1,0 +1,47 @@
+.container{
+    display: flow-root;
+    padding: 10px;
+    margin: auto;
+    width: 60em;
+}
+
+h1{
+    text-align: center;
+}
+
+.lista{
+    padding-right: 5px;
+}
+
+.row-1{
+    gap: 20px;
+}
+
+.col-1{
+    width: 16em;
+    float: left;
+    margin: auto;
+}
+
+.col-2{
+    width: 44em;
+    float: right;
+    margin: auto;
+}
+
+.contenido{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding-left:0;
+}
+
+li{
+    flex: 33.33%;
+}
+
+.codigo{
+    padding: 10px;
+    width: 225px;
+    height: fit-content;
+}
